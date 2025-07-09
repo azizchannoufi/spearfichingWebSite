@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Physiolgie Apnée-chasse sous marine</title>
+    <link rel="shortcut icon" href="image/PLONGEE.png"/>
+    <link rel="stylesheet" href="stylecs1.css">
+</head>
+<body id="body5">
+<a href="aceuil.html"><img src="image/iconcs.png" alt="" id="img1"></a>
+<a href="inscription.html" class="lien1">s'inscrire</a>
+    <table id="tb1">
+        <tr><td> <form name="form"><select class="sel1" id="" onchange="location.href=''+this.options[this.selectedIndex].value">
+            <option value="MAGAZINE">MAGAZINE</option>
+           <option value="poissons.html" id="" class="op1">Poissons</option>
+           <option value="technique.html" id="" class="op1">Technique</option>
+           <option value="Matriel.html" id="" class="op1">Matriel</option>
+           <option value="" id="" class="op1">Les bon coins</option>
+           <option value="apnée.html" id="" class="op1">Physiologie-Apnée</option>
+           <option value="" id="" class="op1">Album photos</option>
+           <option value="clips.html" id="" class="op1">Clips vidéo</option>
+        </select></form></td>
+        <td> <form> <select class="sel1" id="" onchange="location.href=''+this.options[this.selectedIndex].value">
+            <option value="BOUTIQUE">BOUTIQUE</option>
+            <option value="" id="" class="op1">Films</option>
+            <option value="" id="" class="op1">Combi-Palme-Arbeléte</option>
+            <option value="" id="" class="op1">Livres et magazines</option>
+        </select></form></td>
+        <td><form action=""><select class="sel1" id="" onchange="location.href=''+this.options[this.selectedIndex].value">
+            <option value="SERVICE">SERVICE</option>
+            <option value="https://www.meteo.tn/ar" id="" class="op1">Meteo</option>
+            <option value="https://www.windy.com/fr/-Radar-m%C3%A9t%C3%A9o-radar?radar,34.474,9.461,5" id="" class="op1">Meteo marine</option>
+            <option value="" id="" class="op1">Calcul lest</option>
+            <option value="https://www.fishbase.se/search.php" id="" class="op1">Ichtologie</option>
+        </select></form></td>
+        <td></td>
+        <td></td>
+    </tr>
+    </table>
+    <section>
+        <h1 class="h1-4">Physiologie-Apnée</h1> 
+        <legend class="leg3">Chronométrer votre Apnée:</legend>
+        <div id="chronotime">00:00:00 </div>
+       <div class="di-butt">
+        <form name="chronoForm">
+        <input class="butt1" type="button" name="startstop" value="start!" onClick="chronoStart()" />
+        <input class="butt1" type="button" name="startstop" value="stop!" onClick="chronoStop()" />
+        <input class="butt1" type="button" name="reset" value="reset!" onClick="chronoReset()" />
+        </form>
+       </div>
+        <article class="art-01">
+            <legend class="leg3">des questions:</legend>
+            <a href="" class="a-art"><p class="p-art">L'Aquacité, gage d'efficacité</p></a>
+            <a href="" class="a-art"><p class="p-art">Comment bien débuter en apnée ?</p></a>
+            <a href="" class="a-art"><p class="p-art">Pourquoi ressent-on le besoin de respirer ?</p></a>
+            <a href="" class="a-art"><p class="p-art">A quoi sert l'hyperventilation ?</p></a>
+            <a href="" class="a-art"><p class="p-art">Comment améliorer la durée de l'apnée ?</p></a>
+
+        </article>
+
+    </section>
+    <div class="dv1" id="">
+        <p id="date" class="p1"></p>
+        <p id="heure" class="p1"></p>
+        </div>
+
+            <footer>
+                <h4 class="tt4">SERVICE :</h4>
+                <a href="https://www.meteo.tn/ar" class="lien2" id="">  Meteo</a><br>
+                <a href="https://www.windy.com/fr/-Radar-m%C3%A9t%C3%A9o-radar?radar,34.474,9.461,5" class="lien2" id="">Meteo Marine</a><br>
+                <a href="#" class="lien2" id="">Calcul Lest</a><br>
+                <a href="https://www.fishbase.se/search.php" class="lien2" id="">Ichtologie</a> <br>
+                <div id="dfo">
+                Copyright 2021-2022 &copy -TUNISIE-
+                <br>
+                <img class="img7" src="image/insta.jpg">
+                <img class="img7" src="image/fb.png">
+                <img class="img7" src="image/twitter.png">
+                </div>
+            </footer> 
+<script src="csjava.js"></script>
+</body>
+</html>
